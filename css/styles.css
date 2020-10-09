@@ -165,13 +165,14 @@ h2,
 h3,
 h4,
 h5 {
-  padding: 40px 0 20px 0;
-  color: var(--second-bg-color);
+  padding: 40px 0;
+  color: var(--main-bg-color);
 }
 
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   font-weight: bold;
+  color: var(--second-bg-color);
 }
 
 h3 {
@@ -200,11 +201,23 @@ h3 {
 }
 
 .project-link {
-  margin: 20px 0;
+  padding: 20px 0;
 }
 
 .project-link a:hover {
   color: var(--link-color);
+}
+
+.links-item {
+  background-color: var(--main-bg-color);
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.links-item:hover {
+  color: var(--link-color);
+  border-color: var(--second-bg-color);
 }
 
 img {
@@ -232,7 +245,7 @@ connect
   display: flex;
   justify-content: space-around;
   margin: 20px auto 0;
-  width: 90%;
+
   color: var(--main-bg-color);
   font-weight: 700;
   letter-spacing: 3px;
@@ -244,4 +257,8 @@ connect
 
 .flex-icons p:hover {
   color: var(--link-color);
+}
+
+.connect {
+  padding-bottom: 40px;
 }
