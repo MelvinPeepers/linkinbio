@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -150,7 +150,7 @@ General
 html,
 body {
   font-size: 62.5%;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: var(--sec-bg-color);
 }
@@ -161,10 +161,7 @@ a {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5 {
+h2 {
   padding: 40px 0;
   color: var(--main-bg-color);
 }
@@ -176,8 +173,10 @@ h2 {
 }
 
 h3 {
-  font-size: 2.4rem;
+  padding: 40px 0 20px 0;
+  font-size: 3rem;
   font-weight: bold;
+  color: var(--second-bg-color);
 }
 
 .container {
@@ -210,7 +209,7 @@ h3 {
 
 .links-item {
   background-color: var(--main-bg-color);
-  width: 70%;
+  width: 73%;
   margin: 0 auto;
   padding: 20px 10px;
 }
@@ -233,7 +232,7 @@ img {
 
 p {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   padding-top: 5px;
 }
 
